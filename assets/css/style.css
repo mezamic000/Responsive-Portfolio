@@ -63,7 +63,7 @@ body {
     border-bottom: 2px solid #ccc;
   }
   
-  #logo {
+  .logo {
     float: left;
     width: 250px;
     height: 90px;
@@ -142,7 +142,7 @@ body {
   
   /* main */
   
-  #main-container {
+  .container main-container {
     padding-top: 130px;
   }
   
@@ -237,6 +237,80 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
-  
 
+
+@media only screen and (max-width: 640px) {
+
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+
+
+    .sidebar {
+        float: left;
+    }
+
+    .auth-image {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    #masthead {
+      float: none;
+    }
+
+    .nav {
+      float: none;
+      display: inline-block;
+    }
+  }
+
+   
+    @media only screen and (max-width: 768px) {
+      .sidebar {
+        float: left;
+    }
+
+    .auth-image {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    #masthead {
+      float: none;
+    }
+
+    .nav {
+      float: none;
+      display: inline-block;
+    }
+
+    }
+
+    @media only screen and (max-width: 980px) {
+        .sidebar {
+        float: left;
+    }
+
+    .auth-image {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    #masthead {
+      float: none;
+    }
+
+    .nav {
+      float: none;
+      width: 100%;
+      padding: 20px;
+    }
+
+    }
 
